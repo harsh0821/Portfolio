@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* Body style */
+body {
+	background-color: black;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation bar style */
+nav {
+    margin-top: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px 0 8px;
+  }
+  
+  .logo {
+    padding: 0px 70px;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+   
+    padding: 10px 20px;
+  }
+  
+  .nav-links li a:hover {
+    color: #FEFF90;
+    transition: 0.5s ease;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  }
+footer {
+	background-color: #292929;
+	display: flex;
+	align-items: center;
+	height: 80px;
+	padding: 0 50px;
+}
+
+footer p {
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+	flex: 1;
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+.social-media img {
+	margin: 0 10px;
+	height: 30px;
+}
+.rl {
+    padding: 0 10px;
+  }
+
+  .about-section {
+    background-color: black;
+    color: #fff;
+    padding: 300px 50px 0 0;
+    position: absolute;
+    background-image: url(photos/pabt.jpg);
+    background-repeat: no-repeat;
+    animation: transitionIn 0.5s;
+    
+    
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-section .btn-primary {
+    background-color: #fff;
+    color: #222;
+    border-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .about-section .btn-primary:hover {
+    background-color:black;
+    color: #fff;
+    border-color: #222;
+  }
+  
+  @media (max-width: 767px) {
+    .about-section img {
+      max-width: 80%;
+    }
+  }
+  .ab {
+    margin-bottom: 350px;
+    margin-left: 850px;
+    animation: transitionIn 1.5s;
+  }
+
+  
+
+@keyframes transitionIn {
+  from {
+    opacity : 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+  
+  
